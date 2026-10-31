@@ -1,0 +1,94 @@
+>>> ./build/bench_lz4 128 10 3 1 --mode single
+[bench_lz4] totalMB=128 iters=10 warmup=3 dtype=1 chunks=2048 mode=single item=uniform
+
+=== lz4 benchmark (chunk=65536B, dtype=1) ===
+dataset           chunks     in(MB)   comp(MB)    ratio   comp(ms)  compGB/s    dec(ms)   decGB/s verify
+single/zeros        2048     128.00       0.52   0.0041     68.944      1.95     33.610      3.99     OK
+single/repeat       2048     128.00       0.53   0.0041     69.112      1.94     97.628      1.37     OK
+single/text         2048     128.00       0.61   0.0047     71.441      1.88     76.418      1.76     OK
+single/structured    2048     128.00      45.42   0.3549    133.539      1.01     72.596      1.85     OK
+single/random       2048     128.00     128.50   1.0039    343.808      0.39     65.928      2.04     OK
+
+RESULT: PASS
+>>> ./build/bench_lz4 128 10 3 2 --mode single
+[bench_lz4] totalMB=128 iters=10 warmup=3 dtype=2 chunks=2048 mode=single item=uniform
+
+=== lz4 benchmark (chunk=65536B, dtype=2) ===
+dataset           chunks     in(MB)   comp(MB)    ratio   comp(ms)  compGB/s    dec(ms)   decGB/s verify
+single/zeros        2048     128.00       0.53   0.0041     65.166      2.06     98.104      1.37     OK
+single/repeat       2048     128.00       0.53   0.0041     65.291      2.06     97.623      1.37     OK
+single/text         2048     128.00       0.70   0.0055     67.643      1.98     65.939      2.04     OK
+single/structured    2048     128.00      46.00   0.3594    105.385      1.27     73.891      1.82     OK
+single/random       2048     128.00     128.50   1.0039    203.642      0.66     65.924      2.04     OK
+
+RESULT: PASS
+>>> ./build/bench_lz4 128 10 3 4 --mode single
+[bench_lz4] totalMB=128 iters=10 warmup=3 dtype=4 chunks=2048 mode=single item=uniform
+
+=== lz4 benchmark (chunk=65536B, dtype=4) ===
+dataset           chunks     in(MB)   comp(MB)    ratio   comp(ms)  compGB/s    dec(ms)   decGB/s verify
+single/zeros        2048     128.00       0.53   0.0042     63.384      2.12     97.621      1.37     OK
+single/repeat       2048     128.00       0.53   0.0042     63.380      2.12     97.622      1.37     OK
+single/text         2048     128.00       0.88   0.0069     65.740      2.04     65.937      2.04     OK
+single/structured    2048     128.00      49.46   0.3864     91.395      1.47     87.010      1.54     OK
+single/random       2048     128.00     128.50   1.0039    131.533      1.02     65.926      2.04     OK
+
+RESULT: PASS
+------------------------------------------------------------
+BENCH(lz4/single): PASS
+>>> ./build/bench_lz4 128 10 3 1 --mode batch
+[bench_lz4] totalMB=128 iters=10 warmup=3 dtype=1 chunks=2048 mode=batch item=uniform
+            item pattern=uniform items=2048 min=65536B avg=65536B max=65536B launches=8 (<=256/launch)
+
+=== lz4 benchmark (chunk=65536B, dtype=1) ===
+dataset            items     in(MB)   comp(MB)    ratio   comp(ms)  compGB/s    dec(ms)   decGB/s verify
+batch/zeros         2048     128.00       0.52   0.0041     68.894      1.95     33.660      3.99     OK
+batch/repeat        2048     128.00       0.53   0.0041     69.142      1.94     97.675      1.37     OK
+batch/text          2048     128.00       0.61   0.0047     71.470      1.88     76.471      1.76     OK
+batch/structured    2048     128.00      45.42   0.3549    130.359      1.03     72.697      1.85     OK
+batch/random        2048     128.00     128.50   1.0039    331.419      0.40     66.018      2.03     OK
+
+RESULT: PASS
+>>> ./build/bench_lz4 128 10 3 2 --mode batch
+[bench_lz4] totalMB=128 iters=10 warmup=3 dtype=2 chunks=2048 mode=batch item=uniform
+            item pattern=uniform items=2048 min=65536B avg=65536B max=65536B launches=8 (<=256/launch)
+
+=== lz4 benchmark (chunk=65536B, dtype=2) ===
+dataset            items     in(MB)   comp(MB)    ratio   comp(ms)  compGB/s    dec(ms)   decGB/s verify
+batch/zeros         2048     128.00       0.53   0.0041     65.159      2.06     98.151      1.37     OK
+batch/repeat        2048     128.00       0.53   0.0041     65.325      2.05     97.674      1.37     OK
+batch/text          2048     128.00       0.70   0.0055     67.667      1.98     65.992      2.03     OK
+batch/structured    2048     128.00      46.00   0.3594    103.352      1.30     74.011      1.81     OK
+batch/random        2048     128.00     128.50   1.0039    197.532      0.68     66.018      2.03     OK
+
+RESULT: PASS
+>>> ./build/bench_lz4 128 10 3 4 --mode batch
+[bench_lz4] totalMB=128 iters=10 warmup=3 dtype=4 chunks=2048 mode=batch item=uniform
+            item pattern=uniform items=2048 min=65536B avg=65536B max=65536B launches=8 (<=256/launch)
+
+=== lz4 benchmark (chunk=65536B, dtype=4) ===
+dataset            items     in(MB)   comp(MB)    ratio   comp(ms)  compGB/s    dec(ms)   decGB/s verify
+batch/zeros         2048     128.00       0.53   0.0042     63.485      2.11     97.673      1.37     OK
+batch/repeat        2048     128.00       0.53   0.0042     63.411      2.12     97.669      1.37     OK
+batch/text          2048     128.00       0.88   0.0069     65.772      2.04     65.996      2.03     OK
+batch/structured    2048     128.00      49.46   0.3864     91.285      1.47     87.085      1.54     OK
+batch/random        2048     128.00     128.50   1.0039    128.996      1.04     66.019      2.03     OK
+
+RESULT: PASS
+>>> ./build/bench_lz4 128 10 3 1 --mode batch --item mixed
+[bench_lz4] totalMB=128 iters=10 warmup=3 dtype=1 chunks=2048 mode=batch item=mixed
+            item pattern=mixed items=2170 min=1024B avg=61851B max=262144B launches=9 (<=256/launch)
+
+=== lz4 benchmark (chunk=65536B, dtype=1) ===
+dataset            items     in(MB)   comp(MB)    ratio   comp(ms)  compGB/s    dec(ms)   decGB/s verify
+batch/zeros         2170     128.00       0.53   0.0042     84.942      1.58     41.443      3.24     OK
+batch/repeat        2170     128.00       0.54   0.0042     85.145      1.58    120.260      1.12     OK
+batch/text          2170     128.00       0.66   0.0051     88.072      1.52     94.155      1.43     OK
+batch/structured    2170     128.00      45.37   0.3544    160.084      0.84     89.810      1.49     OK
+batch/random        2170     128.00     128.51   1.0039    406.168      0.33     81.235      1.65     OK
+
+RESULT: PASS
+------------------------------------------------------------
+BENCH(lz4/batch): PASS
+============================================================
+BENCH(lz4): PASS

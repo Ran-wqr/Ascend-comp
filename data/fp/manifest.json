@@ -1,0 +1,519 @@
+{
+  "files": [
+    {
+      "bytes": 1048576,
+      "class": "gauss",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_gauss_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "82e7f5107bf831f8c6a6d79319f3ba843f693ae46f95b8d562cfcd17df01c1c4",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "gauss",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_gauss_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "ec279ac02c57f5fae83c6ffaa6dc8b8b69f6f6eb5d5f954784a4e27c626fb999",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "repeat",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_repeat_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "8d49c50425f0f7dcc23562cfc89b0ad7ad5c546706003271f0d183980d9c80c2",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "repeat",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_repeat_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "3fcf958ac57ccaae9e719434c646c198536e2ef29eaf3ffc3201d178dfa11400",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "smooth",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_smooth_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "39b5a4b35f27fb631f844b99d845d635cae6c41c023efe5dbd5dde57fce4d3fa",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "smooth",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_smooth_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "0387f3723204aa33a0d53240d2abb763b587c884d865fc7c6a073cd25203e6e1",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "sparse",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_sparse_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "30abc6332a3b6835257a4a25ac508e12cc7a0adbcba2557de5e148fdd42643b4",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "sparse",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_sparse_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "63820a48b8139483e83e1f7357c540ac4ff09565b7d943f1c70ee2cbf20ad4fc",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "uniform",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_uniform_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "adc6f3f8113034ec2d568da3b72778ea82deb9af1ce8aebc97c654ccd9209c89",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "uniform",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_uniform_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "2f1e1493a56da0d6bdf0a675e8ceb674439a85a502643c9852781df12d96959e",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "weights",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_weights_1MiB.bin",
+      "note": "cast bf16->bf16",
+      "sha256": "28cad92019fe190b786582c1f9b577b3052758c9268d2f2828345db7190d9f89",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:1048576 BF16 bytes]"
+    },
+    {
+      "bytes": 8388608,
+      "class": "weights",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_weights_8MiB.bin",
+      "note": "cast bf16->bf16",
+      "sha256": "1dd162698970ab715bffacc61191c64997422a40bc83f6a2b8e2acdfb1c5974c",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:8388608 BF16 bytes]"
+    },
+    {
+      "bytes": 1048576,
+      "class": "wideexp",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_wideexp_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "f2f4f6b9a6cc0c7412a8f02089da03a6e61909720c50213e37cfe251a7e23379",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "wideexp",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_wideexp_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "560c3b2d8d9229bfc6d84f7d29a51ddd8d9775c5c16fb8775af5b8827bfd1e84",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "zeros",
+      "dtype": "bf16",
+      "elems": 524288,
+      "name": "bf16/bf16_zeros_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "zeros",
+      "dtype": "bf16",
+      "elems": 4194304,
+      "name": "bf16/bf16_zeros_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "gauss",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_gauss_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "83bb1f2d3dd59f7ef517c05c66278abb52c0904c661a085d339c54ccf07a5a5c",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "gauss",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_gauss_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "d88f8a1e54966bf5d28f8781b152d5a7346f8e7a65cf6c763b87844600f1f460",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "repeat",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_repeat_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "7f42ba01c0c2758d84bce7d96c979b6cd0e8dee615b948ee06036e70134d938c",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "repeat",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_repeat_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "5022e7e2ebdc05642627b8415e48e1d9181b03ace084cc19a65f5ae5265f1902",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "smooth",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_smooth_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "ebd4cb77fcdb88bcf39d547e09e6234d31f508072f9aa8595465fa55f30d29d9",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "smooth",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_smooth_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "ee15dbba199e3a5e4545813ea16982898e900349f555b6d3a0e30deae6b46ecd",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "sparse",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_sparse_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "822e41a01ab6f2ea74beddd99dd98c16d0c5bdf568f6a5edb182bc7aa2049b7a",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "sparse",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_sparse_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "732f40b0f9b85922a813b01f9b48ad4c5145c8aa29c29f9cd42cc562fe96a69b",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "uniform",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_uniform_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "c67e50a318f4d30cde761ba0a74b1e1052b30e633676080036eaa32f01d5825b",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "uniform",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_uniform_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "a1020e017f07c3068ab74583088fb7f0cded7fb92995be1e06825004fd2c9a97",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "weights",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_weights_1MiB.bin",
+      "note": "cast bf16->fp16, 0 values clipped",
+      "sha256": "4b770398efcde8c600a3408ff8bcb2c7b1b37bdaf2ba4c6606061bb6fc612c96",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:1048576 BF16 bytes]"
+    },
+    {
+      "bytes": 8388608,
+      "class": "weights",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_weights_8MiB.bin",
+      "note": "cast bf16->fp16, 0 values clipped",
+      "sha256": "b837c1aa1568f8b111e1810c2ab0422233dacd2490e15504a5483a903692b74d",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:8388608 BF16 bytes]"
+    },
+    {
+      "bytes": 1048576,
+      "class": "wideexp",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_wideexp_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "9dbdb646ae126fb07d6179bab90cc220ddf536469ca97043b282f2a1d99ed184",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "wideexp",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_wideexp_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "359100465b01de4bf27e70437b35cedc93328f83764f0c01df29cd8a374b145d",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "zeros",
+      "dtype": "fp16",
+      "elems": 524288,
+      "name": "fp16/fp16_zeros_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "zeros",
+      "dtype": "fp16",
+      "elems": 4194304,
+      "name": "fp16/fp16_zeros_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "f32nat",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_f32nat_1MiB.bin",
+      "note": "bf16 high 16 bits + deterministic random low 16 bits (native fp32 emulation)",
+      "sha256": "5fc22688fb6fa97f2fe94a0bebb346cefc06405909111ecf4435ae4253a99e69",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:524288 BF16 bytes]"
+    },
+    {
+      "bytes": 8388608,
+      "class": "f32nat",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_f32nat_8MiB.bin",
+      "note": "bf16 high 16 bits + deterministic random low 16 bits (native fp32 emulation)",
+      "sha256": "96f273d48b67854b0e99b3d468332d3b708594bf71f3a25b2afb672517753a95",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:4194304 BF16 bytes]"
+    },
+    {
+      "bytes": 1048576,
+      "class": "gauss",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_gauss_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "521e85f88233a13b63fb489a97f77774ae7e6ac2fc5c9e34ae75988ae3c199b4",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "gauss",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_gauss_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "2fe77bc232c73135392fe6e9a29cfe1f0356096f5203363956024c9876ca48da",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "repeat",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_repeat_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "88ba40a01d0a3984a553ebd678de35ec124616f0e7d4054bb65e2de76e5f7712",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "repeat",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_repeat_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "8cfd15f09571c4246e1fde7a27d9728c61c9f3aab21443a38431db80863ea8da",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "smooth",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_smooth_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "c3ed2c4528ca0264ec5e0594142fbdf5fee3f11ac1c3d23fe1a5f4eaf0b48a9b",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "smooth",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_smooth_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "0e28a1b35eb48b0f8a0227449248145f99fb9262cce0e816c64d4bcb4b7bb2dd",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "sparse",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_sparse_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "bca12212a1b1889eb0f9d4459e856f3c102c0cbc0ee54ea1a3d21e508d46f269",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "sparse",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_sparse_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "250809593f9856ce178be1c88372ce9f391934eda5d32a91b12289f6eef19016",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "uniform",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_uniform_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "f3b0b5018facffde5e5f36b0931990f8adf327a8bde065715f43a164f9a1ddcf",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "uniform",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_uniform_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "70bb10090670700254368613846aaba28a79f2b7b5516b5a4b6d0f3e60107c6e",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "weights",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_weights_1MiB.bin",
+      "note": "cast bf16->fp32",
+      "sha256": "e9b325d8e47ce79b3b36e5be3029bd5bf9ff5c2bcc828ca405cce385f9c67e60",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:524288 BF16 bytes]"
+    },
+    {
+      "bytes": 8388608,
+      "class": "weights",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_weights_8MiB.bin",
+      "note": "cast bf16->fp32",
+      "sha256": "409330290de737f4ca5895752497e4b1006788eddcaa75152896af5d3cfab8a0",
+      "source": "model-00001-of-00017.safetensors:model.layers.0.mlp.down_proj.weight[0:4194304 BF16 bytes]"
+    },
+    {
+      "bytes": 1048576,
+      "class": "wideexp",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_wideexp_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "84f2e049f5c36c8819f8781a3aabd62c4da9af33e1c379de62016252c45cf1fb",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "wideexp",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_wideexp_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "06faf33cf4ea1d80e38fadd3748cff55ff8864dc5ce76809d596b67d0eb1c37a",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 1048576,
+      "class": "zeros",
+      "dtype": "fp32",
+      "elems": 262144,
+      "name": "fp32/fp32_zeros_1MiB.bin",
+      "note": "synthetic",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "source": "generator seed=20261028"
+    },
+    {
+      "bytes": 8388608,
+      "class": "zeros",
+      "dtype": "fp32",
+      "elems": 2097152,
+      "name": "fp32/fp32_zeros_8MiB.bin",
+      "note": "synthetic",
+      "sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74",
+      "source": "generator seed=20261028"
+    }
+  ],
+  "generator": "scripts/gen_fp_data.py",
+  "hans_constraints": {
+    "elems_min": 32768,
+    "elems_multiple_of": 64
+  },
+  "seed": 20261028,
+  "sizes_mib": [
+    1,
+    8
+  ],
+  "version": 1,
+  "weights": {
+    "path": "/workspace/ql/wqr/ENEC_910C/models/BF16/Qwen3-32B/model-00001-of-00017.safetensors",
+    "tensor": "model.layers.0.mlp.down_proj.weight"
+  }
+}

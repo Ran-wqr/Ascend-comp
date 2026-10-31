@@ -1,0 +1,31 @@
+# ---- build outputs ---------------------------------------------------------
+build/
+*.o
+*.so
+hans/bench_hans
+hans_poc/probe
+ref/tools/ref_lz4
+ref/tools/ref_snappy
+
+# ---- third-party sources (re-created by scripts/build_ref*.sh) -------------
+ref/lz4/
+ref/snappy/
+ref/lz4_up_src/
+ref/lz4_kp_src/
+
+# ---- generated test data (manifests ARE tracked) ---------------------------
+data/t_*.bin
+data/batch/
+data/fp/**/*.bin
+data/large/*.bin
+data/large/*.zip
+data/*.lz4blocks*
+data/*.snappyblocks*
+
+# ---- run logs (keep the regression baseline) -------------------------------
+logs/*
+!logs/baseline_sha256.txt
+
+# ---- local snapshots / scratch --------------------------------------------
+backup_20261028/
+.tmp*

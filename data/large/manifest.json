@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "bytes": 1000000000,
+      "file": "enwik9.bin",
+      "kind": "real corpus (Wikipedia XML)",
+      "label": "enwik9",
+      "seed": null,
+      "sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+      "source": "https://mattmahoney.net/dc/enwik9.zip"
+    },
+    {
+      "bytes": 4000000000,
+      "file": "large_4G.bin",
+      "kind": "enwik9 repeated to 4 GB",
+      "label": "text4g",
+      "seed": null,
+      "sha256": "bd46a0faa398d04eacfd82b3428021ad0a3a083f5ac32437862767b16199b0a4",
+      "source": "generator"
+    },
+    {
+      "bytes": 5000000000,
+      "file": "large_5G_random.bin",
+      "kind": "deterministic random bytes",
+      "label": "random5g",
+      "seed": 20261029,
+      "sha256": "2944bdbaf46844e9f729e4ff7b554ab0b44f1603d392919e64efbdcead3db4a4",
+      "source": "generator"
+    },
+    {
+      "bytes": 5000000000,
+      "file": "large_5G_struct.bin",
+      "kind": "48 KiB records + 16 KiB noise per 64 KiB chunk",
+      "label": "struct5g",
+      "seed": 20261029,
+      "sha256": "759de6667b6d8cd3c0a1af6bf44942c53a2c2131aa03d5dbcbe27dfa7448c9f3",
+      "source": "generator"
+    },
+    {
+      "bytes": 5000000000,
+      "file": "large_5G_text.bin",
+      "kind": "enwik9 repeated to 5 GB",
+      "label": "text5g",
+      "seed": null,
+      "sha256": "50bf96fe1b2c5a6675bcd4f9c196f71de37f74a8539a3d87071faa72caddb479",
+      "source": "generator"
+    },
+    {
+      "bytes": 1000000000,
+      "file": "large_binary_1G.bin",
+      "kind": "4 KiB pages: 2 KiB template + 2 KiB noise",
+      "label": "binary",
+      "seed": 20261029,
+      "sha256": "e75eff5a91964e309dd633b3edada68a83e3bb251c24c4fca7b820d9c2892151",
+      "source": "generator"
+    },
+    {
+      "bytes": 1000000000,
+      "file": "large_mixed_1G.bin",
+      "kind": "250 MB text + records + random + zeros",
+      "label": "mixed",
+      "seed": 20261029,
+      "sha256": "36153492e00737ecb15495e4ad998afc0eeee843f028199816b5ed5297e50a66",
+      "source": "generator"
+    },
+    {
+      "bytes": 1000000000,
+      "file": "large_random_1G.bin",
+      "kind": "deterministic random bytes",
+      "label": "random",
+      "seed": 20261029,
+      "sha256": "d3952ab642f052cd15237380bfa372a0aa22dc3b9cad96cd19540d0f36229338",
+      "source": "generator"
+    },
+    {
+      "bytes": 1000000000,
+      "file": "large_struct_1G.bin",
+      "kind": "48 KiB records + 16 KiB noise per 64 KiB chunk",
+      "label": "struct",
+      "seed": 20261029,
+      "sha256": "fa029210f3fef7688886630f4d234688397a0f105fc680e30b869e32b7f88392",
+      "source": "generator"
+    }
+  ],
+  "generator": "scripts/gen_large_testdata.py",
+  "sizes_bytes": [
+    1000000000,
+    4000000000,
+    5000000000
+  ],
+  "version": 1
+}
